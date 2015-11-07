@@ -15,7 +15,7 @@
 		D332C9801BE2117F000AFBE0 /* ECCurveDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D332C97D1BE2117F000AFBE0 /* ECCurveDrawingView.m */; };
 		D332C9871BE21FD6000AFBE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D332C9861BE21FD6000AFBE0 /* ViewController.m */; };
 		D34BBFDF1BE7BAD100F65763 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = D34BBFDE1BE7BAD100F65763 /* Readme.md */; };
-		D38CA68A1BEE523C00A942F0 /* demonstration.gif in Resources */ = {isa = PBXBuildFile; fileRef = D38CA6891BEE523C00A942F0 /* demonstration.gif */; };
+		D38CA6901BEE585000A942F0 /* demonstration.gif in Resources */ = {isa = PBXBuildFile; fileRef = D38CA68F1BEE585000A942F0 /* demonstration.gif */; };
 		D390A1891BE47F3200CBB906 /* ECCurveClippingImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D390A1881BE47F3200CBB906 /* ECCurveClippingImageModel.m */; };
 		D390A18B1BE5152C00CBB906 /* scissor.png in Resources */ = {isa = PBXBuildFile; fileRef = D390A18A1BE5152C00CBB906 /* scissor.png */; };
 /* End PBXBuildFile section */
@@ -35,7 +35,7 @@
 		D332C9851BE21FD6000AFBE0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
 		D332C9861BE21FD6000AFBE0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		D34BBFDE1BE7BAD100F65763 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
-		D38CA6891BEE523C00A942F0 /* demonstration.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demonstration.gif; sourceTree = "<group>"; };
+		D38CA68F1BEE585000A942F0 /* demonstration.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demonstration.gif; sourceTree = "<group>"; };
 		D390A1871BE47F3200CBB906 /* ECCurveClippingImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECCurveClippingImageModel.h; sourceTree = "<group>"; };
 		D390A1881BE47F3200CBB906 /* ECCurveClippingImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECCurveClippingImageModel.m; sourceTree = "<group>"; };
 		D390A18A1BE5152C00CBB906 /* scissor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scissor.png; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				D34BBFDE1BE7BAD100F65763 /* Readme.md */,
-				D38CA6891BEE523C00A942F0 /* demonstration.gif */,
+				D38CA68F1BEE585000A942F0 /* demonstration.gif */,
 				D332C9601BE2114C000AFBE0 /* ECCurve */,
 				D332C95F1BE2114C000AFBE0 /* Products */,
 			);
@@ -166,7 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D38CA68A1BEE523C00A942F0 /* demonstration.gif in Resources */,
+				D38CA6901BEE585000A942F0 /* demonstration.gif in Resources */,
 				D390A18B1BE5152C00CBB906 /* scissor.png in Resources */,
 				D332C9711BE2114C000AFBE0 /* LaunchScreen.storyboard in Resources */,
 				D332C96E1BE2114C000AFBE0 /* Assets.xcassets in Resources */,
