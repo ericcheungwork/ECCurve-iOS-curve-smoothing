@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  ECCurve
+//
+//  Created by Eric on 29/10/2015.
+//  Copyright © 2015 Eric Cheung. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+@import UIKit;
+
+#define imageWidthLowerLimit 70.0
+#define imageHeightLowerLimit 70.0
+#define kControlPanelHeight 88.0
+
+#ifdef DEBUG
+#   define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define DLog(...)
+#endif
