@@ -4,6 +4,7 @@ ECCurve
 A curve smoothing library for iOS. User can draw a line on the screen and those "square corners" will be corrected to round corners so smooth curve can be shown!
 
 ![demonstration](demonstration.gif)	
+![demonstration2](demonstration2.gif)	
 
 ## Overview
 
@@ -18,7 +19,7 @@ Part of the code reference to https://github.com/levinunnink/Smooth-Line-View
 ## Get Started
 
 Create a new drawing area like the code below. 
-use `andPath: [NSNull null]` if you want no beginning path. 
+Use `andPath: [NSNull null]` if you want no beginning path. 
 (Refer to ViewController.h/m for the detail usage.)
 
 ```
